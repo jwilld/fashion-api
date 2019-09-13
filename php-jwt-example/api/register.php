@@ -1,11 +1,14 @@
 <?php
 include_once './config/database.php';
 
+
+
 header("Access-Control-Allow-Origin: * ");
 header("Content-Type: application/json; charset=UTF-8");
-header("Access-Control-Allow-Methods: POST");
+header("Access-Control-Allow-Methods: *");
 header("Access-Control-Max-Age: 3600");
-header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
+header("Access-Control-Allow-Headers: Origin, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
+
 
 $firstName = '';
 $lastName = '';
@@ -17,6 +20,9 @@ $databaseService = new DatabaseService();
 $conn = $databaseService->getConnection();
 
 $data = json_decode(file_get_contents("php://input"));
+
+
+
 
 $firstName = $data->first_name;
 $lastName = $data->last_name;
@@ -42,6 +48,7 @@ $password_hash = password_hash($password, PASSWORD_BCRYPT);
 $stmt->bindParam(':password', $password_hash);
 
 
+
 if($stmt->execute()){
 
     http_response_code(200);
@@ -51,5 +58,13 @@ else{
     http_response_code(400);
 
     echo json_encode(array("message" => "Unable to register the user."));
+    
+        $file = fopen("./php-fashion-error.txt", "w");
+        echo fwrite($file, $data . '***this is the error***');
+    
+        // show a success msg 
+        echo "data successfully entered";
+        fclose($file);
+    
 }
 ?>
