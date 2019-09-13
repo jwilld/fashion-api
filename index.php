@@ -2,7 +2,7 @@
     $request = $_SERVER['REQUEST_URI'];
 
     switch ($request) {
-        case '/register' :
+        case '/' :
             require __DIR__ . '/php-jwt-example/api/register.php';
             break;
         case '/login' :
