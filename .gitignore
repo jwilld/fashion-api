@@ -1,2 +1,3 @@
-/php-jwt-example/api/protected.php
-/php-jwt-example/api/config
+/php-jwt/api/protected.php
+/php-jwt/api/config
+composer.lock

@@ -1,5 +1,8 @@
 {
     "require": {
-        "firebase/php-jwt": "^5.0"
+        "firebase/php-jwt": "^5.0",
+        "relay/relay": "2.x@dev",
+        "zendframework/zend-diactoros": "^2.1",
+        "pecee/simple-router": "4.2.0.6"
     }
 }
