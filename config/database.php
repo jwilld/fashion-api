@@ -1,5 +1,6 @@
 <?php
 // used to get mysql database connection
+
 class DatabaseService{
 
     private $db_host = "us-cdbr-iron-east-02.cleardb.net";

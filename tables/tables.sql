@@ -1,4 +1,4 @@
-include_once './config/database.php';
+
 
 CREATE TABLE IF NOT EXISTS post(
     id INT(120) AUTO_INCREMENT,
