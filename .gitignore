@@ -1,3 +1,2 @@
-/php-jwt/api/protected.php
-/php-jwt/api/config
-composer.lock
+config
+vendor
