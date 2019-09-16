@@ -2,10 +2,10 @@
 // used to get mysql database connection
 class DatabaseService{
 
-    private $db_host = "localhost";
-    private $db_name = "TRND";
-    private $db_user = "root";
-    private $db_password = "kanye7245";
+    private $db_host = "us-cdbr-iron-east-02.cleardb.net";
+    private $db_name = "heroku_d719a5ada02a7ef";
+    private $db_user = "ba43de6ca82448";
+    private $db_password = "032be10c";
     private $connection;
 
     public function getConnection(){
