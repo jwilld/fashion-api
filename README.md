@@ -1,4 +1,6 @@
 # TRND API
+## ![#f03c15]( End Points wont be included in this README file.) `#f03c15`
+
 
 
 ## Deployed Links
