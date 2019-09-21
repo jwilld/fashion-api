@@ -1,8 +1,6 @@
 # TRND API
 
-(&#x1F34E;): ##  End Points wont be included in this README file. in red
-
-
+## *** End Points wont be included in this README file.***
 
 
 ## Deployed Links
