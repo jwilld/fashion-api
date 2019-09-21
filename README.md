@@ -1,6 +1,6 @@
 # TRND API
 
-RED APPLE (&#x1F34E;): 🍎 ##  End Points wont be included in this README file. in red
+(&#x1F34E;): ##  End Points wont be included in this README file. in red
 
 
 
