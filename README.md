@@ -9,6 +9,7 @@
 
 ### Website
 - http://trnd.surge.sh/
+- Deployed with Surge
 
 
 ## Description 
