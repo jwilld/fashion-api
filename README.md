@@ -4,12 +4,14 @@
 ## Deployed Links
 
 ### API
-- https://fashion-api2.herokuapp.com
 - Deployed with Heroku and ClearDB
+- https://fashion-api2.herokuapp.com
+
 
 ### Website
-- http://trnd.surge.sh/
 - Deployed with Surge
+- http://trnd.surge.sh/
+
 
 
 ## Description 
