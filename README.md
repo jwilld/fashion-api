@@ -1,5 +1,16 @@
 # TRND API
 
+
+## Deployed Links
+
+### API
+- https://fashion-api2.herokuapp.com
+- Deployed with Heroku and ClearDB
+
+### Website
+- http://trnd.surge.sh/
+
+
 ## Description 
 This is the backend for the TRND app I created. It is used for authentication and recieving posts for users. 
 
@@ -19,6 +30,8 @@ This is the backend for the TRND app I created. It is used for authentication an
 ## Built With
 - PHP
 - MySQL
+
+
 
 ## Contribution Guidelines
 
