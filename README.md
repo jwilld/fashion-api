@@ -1,5 +1,6 @@
 # TRND API
-## ![#f03c15] End Points wont be included in this README file.
+```diff
+##  End Points wont be included in this README file. in red
 
 
 
